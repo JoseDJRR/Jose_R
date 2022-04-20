@@ -29,7 +29,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "821598356504.dkr.ecr.us-west-1.amazonaws.com/josero-app",
+      "image": "821598356504.dkr.ecr.us-west-1.amazonaws.com/josero-app-staging",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -46,7 +46,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "josero-app"
+      "name": "josero-app-staging"
     }
   ],
   "placementConstraints": [],
@@ -56,8 +56,8 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-west-1:821598356504:task-definition/josero-app:1",
-  "family": "josero-app",
+  "taskDefinitionArn": "arn:aws:ecs:us-west-1:821598356504:task-definition/josero-app-staging:1",
+  "family": "josero-app-staging",
   "requiresAttributes": [
     {
       "targetId": null,
